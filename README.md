@@ -61,5 +61,5 @@ This deceptive practice impacts user trust, as individuals rely on reviews to ma
 
 ## Performance Overview of ML Models Leveraged
 
-<p>Support Vector Machines Classifier performed the most accurate predictions regarding the fake nature of reviews having a predictive accuracy of just over 88%, closely followed by Logistic Regression which had a prediction accuracy of a little more than 86%. Random Forests Classifier and Multinomial Naive Bayes algorithm predicted to a precision level of approximately 84%. However, the Decision Tree Classifier performed fake reviews prediction upto an accuracy of just over 73%. The worst performing algorithm was the K Nearest Neighbors algorithm which could only perform the predictions upto an accuracy level of nearly 58%.</p>
+<p>Among the algorithms tested for identifying fake reviews, Support Vector Machines (SVM) had the highest accuracy rate at slightly over 88%, closely trailed by Logistic Regression at just over 86%. Random Forests and Multinomial Naive Bayes followed closely behind, each achieving around 84% accuracy. However, Decision Trees lagged significantly behind with an accuracy just over 73%. K Nearest Neighbors (KNN) performed the worst among the algorithms, achieving an accuracy of nearly 58%.</p>
 
