@@ -7,7 +7,8 @@ This deceptive practice impacts user trust, as individuals rely on reviews to ma
 
 ## Description
 
- Description: The generated fake reviews dataset, containing 20k fake reviews and 20k real product reviews. OR = Original reviews (presumably human created and authentic); CG = Computer-generated fake reviews. 
+ Description: To address the issue of fake reviews and uphold the integrity of the online marketplace, a comprehensive solution leveraging Machine Learning Algorithms is proposed. The preprocessed and vectorized dataset, consisting of 20k fake and 20k real reviews, has been utilized to train a classification model using algorithms like SVM or Random Forest [OR = Original reviews: presumably human created and authentic; CG = Computer-generated fake reviews]. This model has undergone  thorough cross-validation, hyperparameter tuning, and ensemble techniques to ensure robustness and accuracy. 
+The vision is to  deploy the refined model on a website as well as android application. This would allow users to verify review authenticity in real-time. Continuous monitoring, updates, and user feedback integration will be implemented across all platforms, providing a holistic solution to empower users in making well-informed decisions based on genuine feedback.
  
 ## Python Libraries and Packages Used
  
