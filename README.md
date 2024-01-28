@@ -7,7 +7,7 @@ This deceptive practice impacts user trust, as individuals rely on reviews to ma
 
 ## Description
 
- Description: To address the issue of fake reviews and uphold the integrity of the online marketplace, a comprehensive solution leveraging Machine Learning Algorithms is proposed. The preprocessed and vectorized dataset, consisting of 20k fake and 20k real reviews, has been utilized to train a classification model using algorithms like SVM or Random Forest [OR = Original reviews: presumably human created and authentic; CG = Computer-generated fake reviews]. This model has undergone  thorough cross-validation, hyperparameter tuning, and ensemble techniques to ensure robustness and accuracy. 
+To address the issue of fake reviews and uphold the integrity of the online marketplace, a comprehensive solution leveraging Machine Learning Algorithms is proposed. The preprocessed and vectorized dataset, consisting of 20k fake and 20k real reviews, has been utilized to train a classification model using algorithms like SVM. This model has undergone  thorough cross-validation, hyperparameter tuning, and ensemble techniques to ensure robustness and accuracy. 
 The vision is to  deploy the refined model on a website as well as android application. This would allow users to verify review authenticity in real-time. Continuous monitoring, updates, and user feedback integration will be implemented across all platforms, providing a holistic solution to empower users in making well-informed decisions based on genuine feedback.
  
 ## Python Libraries and Packages Used
@@ -31,24 +31,6 @@ The vision is to  deploy the refined model on a website as well as android appli
   <li>sklearn.neighbors</li>
 </ul>
 
-## Techniques Used for Text Preprocessing
-
-<ul>
-  <li>Removing punctuation character</li>
-  <li>Transforming text to lower case</li>
-  <li>Eliminating stopwords</li>
-  <li>Stemming</li>
-  <li>Lemmatizing</li>
-  <li>Removing digits</li>
-</ul>
-
-## Transformers Used for Text Vectorization, Weighting and Normalization
-
-<ul>
-  <li>CountVectorizer Bag of Words Transformer</li>
-  <li>TFIDF(Term Frequency-Inverse Document Frequency) Transformer</li>
-</ul>
-
 ## Machine Learning Algorithms Used
 
 <ol>
@@ -59,8 +41,4 @@ The vision is to  deploy the refined model on a website as well as android appli
   <li>Random Forests Classifier</li>
   <li>Multinomial Naive Bayes</li>
 </ol>
-
-## Performance Overview of ML Models Leveraged
-
-<p> Support Vector Machines Classifier performed the most accurate predictions regarding the fake nature of reviews having a predictive accuracy of just over 88%, closely followed by Logistic Regression which had a prediction accuracy of a little more than 86%. Random Forests Classifier and Multinomial Naive Bayes algorithm predicted to a precision level of approximately 84%. However, the Decision Tree Classifier performed fake reviews prediction upto an accuracy of just over 73%. The worst performing algorithm was the K Nearest Neighbors algorithm which could only perform the predictions upto an accuracy level of nearly 58%. </p>
 
