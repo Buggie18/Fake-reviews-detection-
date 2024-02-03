@@ -1,5 +1,5 @@
 
-const form = document.getElementById('news-form');
+const form = document.getElementById('reviews-form');
 // Example CORS configuration in Express
 const express = require('express');
 const cors = require('cors');
@@ -14,7 +14,7 @@ form.addEventListener('submit', async (event) => {
   event.preventDefault();
 
 
-  const input = document.getElementById('news-text').value;
+  const input = document.getElementById('reviews-text').value;
 
   try {
  
